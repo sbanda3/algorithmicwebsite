@@ -1,0 +1,141 @@
+/* Global styles */
+body {
+    font-family: "Bodoni MT", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF0F5; /* Light pink background */
+    color: #333333; /* Neutral text color for better readability */
+    line-height: 1.6; /* Improved line spacing for better readability */
+    font-size: 18px; /* Increased font size for better readability */
+}
+
+/* Navigation styles */
+header {
+    background-color: #CC313D; /* Red background for header */
+    padding: 20px 0; /* Increased padding for a spacious feel */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Ensures the links align horizontally */
+    margin: 0 30px; /* Adjusted the space between the links */
+}
+
+nav ul li a {
+    color: white; /* White text for contrast on red background */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px; /* Slightly larger text for better visibility */
+}
+
+nav ul li a:hover {
+    color: #F7C5CC; /* Light pink color when hovering */
+}
+
+/* Section styles */
+section {
+    padding: 40px 20px; /* Increased padding for more spacious sections */
+    margin: 40px 20px;
+    border-radius: 8px; /* Added rounded corners for a softer look */
+}
+
+h1, h2, h3 {
+    color: #CC313D; /* Red color for headings */
+    text-align: center; /* Center-align headings */
+    margin-bottom: 20px; /* Added space below headings */
+}
+
+/* Home section */
+#home {
+    background-color: #F7C5CC; /* Light pink for the home section */
+    text-align: center;
+    padding: 60px 20px; /* Increased padding for a more welcoming feel */
+}
+
+#home h1 {
+    color: #CC313D; /* Red color for main heading */
+    font-size: 40px; /* Larger font for prominence */
+}
+
+/* Course section */
+.course-session {
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    padding: 25px;
+    background-color: #F7C5CC; /* Light pink to differentiate from home */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Deeper shadow for a lifted effect */
+    text-align: center; /* Center-align text inside each course session */
+    font-size: 20px; /* Increased font size for better readability */
+}
+
+.course-session h3 {
+    margin-top: 0;
+    color: #CC313D; /* Red color for course headings */
+    font-size: 26px; /* Slightly larger font for better emphasis */
+}
+
+.course-session::before {
+    content: "💻 "; /* Cute laptop symbol before course titles */
+    font-size: 28px; /* Larger symbol for better visibility */
+    color: #F7C5CC; /* Light pink for the symbol */
+}
+
+/* Contact section */
+#contact {
+    background-color: #F7C5CC;
+    padding: 40px 20px; /* Increased padding for a more spacious feel */
+    text-align: center;
+    font-size: 20px; /* Increased font size for better readability */
+}
+
+#contact a {
+    color: #CC313D; /* Red for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #F7C5CC; /* Light pink color on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #CC313D; /* Dark red for footer */
+    color: white;
+    text-align: center;
+    padding: 30px 20px; /* Adjusted padding for footer */
+    font-size: 18px; /* Increased font size for readability */
+}
+
+footer::before {
+    content: "🧑‍💻 "; /* Cute symbol for tech-related footer */
+    font-size: 28px; /* Larger symbol for emphasis */
+    color: white;
+    
+    .register-button {
+    display: inline-block; /* Make the link behave like a block element */
+    padding: 10px 20px; /* Add some padding for the button feel */
+    background-color: #CC313D; /* Red background for the button */
+    color: white; /* White text color */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the text inside the button */
+    border-radius: 8px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    margin: 0 auto; /* Center the link */
+    font-size: 20px; /* Adjust font size */
+}
+
+.register-button:hover {
+    background-color: #F7C5CC; /* Light pink background on hover */
+    color: #CC313D; /* Change text color on hover */
+}
+
+    
+}
